@@ -1,0 +1,39 @@
+INITIALIZE REPO:
+    git init
+CHECK REPO STATE:
+    git status
+ADD A FILE:
+    git add filename
+COMMIT FILES TO LOCAL:
+    git commit -m "message"
+CHECK MODIFICATION:
+    git diff filename
+
+CONNECT TO REMOTE END:
+    git remote add origin git@github.com:wjzzzyx/reponame.git
+DELETE REMOTE CONNECTION:
+    git remote rm origin
+CHANGE REMOTE CONNECTION:
+    git remote set-url origin https://git.ustclug.org:zyx/Backend.git
+PUSH TO REMOTE END:
+    git push -u origin master # for the first time
+    git push origin master
+FETCH UPDATES FROM REMOTE END AND MERGE:
+    git fetch origin master
+    git merge origin/master
+MERGE FROM REMOTE END:
+    git pull origin zyx:master
+CLONE FROM REMOTE END:
+    git clone git@github.com:wjzzzyx/reponame.git
+    git clone https://github.com:wjzzzyx/reponame.git
+
+CREATE BRANCH:
+    git checkout -b dev == git branch dev && git checkout dev
+SEE BRANCH:
+    git branch
+SWITCH BRANCH:
+    git checkout master
+MERGE BRANCH:
+    git merge dev # merge selected branch to the current one
+DELETE BRANCH:
+    git branch -d dev
