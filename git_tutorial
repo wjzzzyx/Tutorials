@@ -9,6 +9,8 @@ COMMIT FILES TO LOCAL:
 CHECK MODIFICATION:
     git diff filename
 
+CHECK REMOTE END:
+    git remote (-v for URL information)
 CONNECT TO REMOTE END:
     git remote add origin git@github.com:wjzzzyx/reponame.git
 DELETE REMOTE CONNECTION:
@@ -17,7 +19,7 @@ CHANGE REMOTE CONNECTION:
     git remote set-url origin https://git.ustclug.org:zyx/Backend.git
 PUSH TO REMOTE END:
     git push -u origin master # for the first time
-    git push origin master
+    git push origin master[:zyx] # from master to zyx in origin
 FETCH UPDATES FROM REMOTE END AND MERGE:
     git fetch origin master
     git merge origin/master
