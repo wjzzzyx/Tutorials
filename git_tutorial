@@ -1,11 +1,15 @@
 INITIALIZE REPO:
     git init
+SET DEFAULT EDITOR:
+    git config --global core.editor "vim -w"
 CHECK REPO STATE:
     git status
 ADD A FILE:
     git add filename
 COMMIT FILES TO LOCAL:
     git commit -m "message"
+CORRECT THE LAST FALSE COMMIT:
+    git commit --amend [-m]
 CHECK MODIFICATION:
     git diff filename
 
