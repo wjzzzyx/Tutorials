@@ -16,7 +16,7 @@ CHECK MODIFICATION:
 CHECK REMOTE END:
     git remote (-v for URL information)
 CONNECT TO REMOTE END:
-    git remote add origin git@github.com:wjzzzyx/reponame.git
+    git remote add origin git@github.com/wjzzzyx/reponame.git
 DELETE REMOTE CONNECTION:
     git remote rm origin
 CHANGE REMOTE CONNECTION:
